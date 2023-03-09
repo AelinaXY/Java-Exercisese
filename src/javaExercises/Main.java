@@ -3,8 +3,11 @@ package javaExercises;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		results result = new results(0, 15, 136);
 
+		result.displayResult();
+
+		result.displayPercnt();
 	}
 
 }
