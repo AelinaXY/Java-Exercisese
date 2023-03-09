@@ -25,9 +25,9 @@ public class results {
 			System.out.println(String.format(
 					"**************************\nOverall Percent: %d [FAIL] \n**************************", percentage));
 			System.out.println(String.format("You failed at these subjects: \n%s%s%s",
-					physicsResult < sixtyPercent ? "Physics\n" : "\n",
-					chemistryResult < sixtyPercent ? "Chemistry\n" : "\n",
-					biologyResult < sixtyPercent ? "Biology\n" : "\n"));
+					physicsResult < sixtyPercent ? "Physics\n" : "",
+					chemistryResult < sixtyPercent ? "Chemistry\n" : "",
+					biologyResult < sixtyPercent ? "Biology\n" : ""));
 
 		} else {
 			System.out.println(String.format(
