@@ -8,6 +8,12 @@ public class Main {
 		result.displayResult();
 
 		result.displayPercnt();
+
+		System.out.println(Flowcharts.flowchart(1, 1, true));
+
+		System.out.println();
+
+		Flowcharts.flowChartA(450);
 	}
 
 }
