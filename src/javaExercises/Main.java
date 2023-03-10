@@ -24,7 +24,9 @@ public class Main {
 //		System.out.println(UniqueSum.uniqueSum(3, 3, 3));
 //		System.out.println(UniqueSum.uniqueSum(1, 1, 2));
 
-		System.out.println(Taxes.taxCalculator(50000));
+//		System.out.println(Taxes.taxCalculator(50000));
+
+		FizzBuzz.FizzBuzzMethod(100);
 	}
 
 }
