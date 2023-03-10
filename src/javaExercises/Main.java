@@ -20,10 +20,11 @@ public class Main {
 //		System.out.println(Blackjack.blackJackMethod(1, 22));
 //		System.out.println(Blackjack.blackJackMethod(23, 22));
 
-		System.out.println(UniqueSum.uniqueSum(1, 2, 3));
-		System.out.println(UniqueSum.uniqueSum(3, 3, 3));
-		System.out.println(UniqueSum.uniqueSum(1, 1, 2));
+//		System.out.println(UniqueSum.uniqueSum(1, 2, 3));
+//		System.out.println(UniqueSum.uniqueSum(3, 3, 3));
+//		System.out.println(UniqueSum.uniqueSum(1, 1, 2));
 
+		System.out.println(Taxes.taxCalculator(50000));
 	}
 
 }
